@@ -11,7 +11,7 @@ import { useAppNavigation } from '../hooks';
 
 const Stack = createNativeStackNavigator<AppStackParamList>();
 
-const INITIAL_ROUTE_NAME: keyof AppStackParamList = 'Map';
+const INITIAL_ROUTE_NAME: keyof AppStackParamList = 'Standard';
 
 const MapScreenWrapper = () => {
   const navigation = useAppNavigation();
